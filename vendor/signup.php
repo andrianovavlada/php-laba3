@@ -17,7 +17,7 @@
       echo 'Регистрация прошла успешно!.'<br>';
 
         $_SESSION['message'] = 'Регистрация прошла успешно!';
-        header('Location: ../index.php');
+        header('Location: ../index2.php');
 
 
     } else {
