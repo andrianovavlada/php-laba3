@@ -20,7 +20,7 @@ if ($_SESSION['user']) {
     <input type="text" id="user" name="user" placeholder="email" ><br>
     <input type="password" id="pass" name="pass" placeholder="пароль" >
     <button type="submit">&#xf0da;</button>
-    <p> Нет аккаунта? <a href="/register.php"> Зарегестрируйтесь!</a>
+    <p> Нет аккаунта? <a href="/registration.php"> Зарегестрируйтесь!</a>
     </p>
     <?php
             if ($_SESSION['message']) {
