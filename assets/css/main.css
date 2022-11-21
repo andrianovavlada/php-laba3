@@ -1,0 +1,160 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css');
+
+*{
+  font-family: 'Open Sans', 'sans-serif', 'FontAwesome';
+}
+body{
+  background: rgb(100, 50, 33);
+  padding: 100px;
+}
+h1{
+  color: rgb(188, 143, 143);
+  margin: 20px auto 0;
+  width: 200px;
+  text-align: center;
+}
+
+#wrapper{
+  position: absolute;
+  width: 320px;
+  left: 50%;
+  margin-left: -160px;
+  top: 50%;
+  margin-top: -75px;
+
+}
+input[type=text]::placeholder {
+  color: rgb(179, 183, 222);
+}
+
+input[type=password]::placeholder {
+  color: rgb(179, 183, 222);
+}
+
+#signin {
+  height: 90px;
+  width: 300px;
+  border-radius: 8px;
+  position: relative;
+
+}
+
+#signin input:first-of-type{
+  border-top-right-radius:50px;
+  border-top-left-radius: 50px;
+}
+#signin input:last-of-type{
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+#signin  input[type="text"], #signin  input[type="password"], #signin button[type="submit"]{
+  background: rgb(205, 133, 96);
+  box-shadow: inset -100px -100px 0 rgb(205, 133, 96);
+  color: rgb(75, 0, 13);
+
+}
+#signin  input[type="text"], #signin  input[type="password"], #signin button[type="2submit"]{
+  background:rgb(205, 133, 96);
+  box-shadow: inset -100px -100px 0 rgb(205, 133, 96);
+  color: rgb(75, 0, 13);
+}
+
+#signin  input[type="text"], #signin  input[type="password"]{
+  position: relative;
+  display: block;
+  width: 320px;
+  height: 45px;
+  border: 0;
+  outline: 0;
+  top: -1px;
+  padding: 0 0 0 25px;
+  font-weight: 700;
+
+
+}
+#signin  input[type="text"]:focus, #signin  input[type="password"]:focus{
+  color: rgb(0, 0, 0);
+}
+#signin button[type="submit"]{
+  display: block;
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  color: rgb(188, 143, 143);
+  border-radius: 50px;
+  outline: 0;
+  z-index: 2;
+  top: 30px;
+  right: -24px;
+  border: 5px solid rgb(188, 143, 143);
+  font-size: 25px;
+  text-indent: 00px;
+  padding-left: 9px;
+  padding-bottom: 3px;
+  text-align: center;
+
+}
+#signin button[type="2submit"]{
+  display: block;
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  color: rgb(188, 143, 143);
+  border-radius: 50px;
+  outline: 0;
+  z-index: 2;
+  top: 64px;
+  right: -24px;
+  border: 5px solid rgb(188, 143, 143);
+  font-size: 25px;
+  text-indent: 00px;
+  padding-left: 9px;
+  padding-bottom: 3px;
+  text-align: center;
+
+}
+#signin button[type="2submit"]:hover{
+  color: rgb(100, 50, 33);
+  text-shadow: 0 0 10px rgb(100, 50, 33);
+  cursor: pointer;
+}
+#signin button[type="submit"]:hover{
+  color: rgb(100, 50, 33);
+  text-shadow: 0 0 10px rgb(100, 50, 33);
+  cursor: pointer;
+}
+#signin p {
+  color: rgb(188, 143, 143);
+  padding: 0 20px;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 5px 0 0 5px;
+}
+#signin p > a{
+  color: rgb(188, 143, 143);
+  text-decoration: none;
+}
+#signin p > a:hover{
+  border-bottom: 1px solid;
+
+}
+
+.d10 h3 {
+
+  display: table;
+  width: auto;
+  margin: 0 auto;
+  padding: 15px;
+  letter-spacing: 2px;
+  border: 2px solid rgb(188, 143, 143);
+  color: rgb(75, 0, 13);
+  font-weight: normal;
+  font-family: 'Ultra', sans-serif;
+  font-size: 50px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 3px 4px rgb(178, 34, 34), 5px 6px rgb(205, 92, 92);
+}
+
