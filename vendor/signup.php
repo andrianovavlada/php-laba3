@@ -3,7 +3,7 @@
     session_start();
     require_once 'connect.php';
 
-  if (isset($_POST['login'])and isset($_POST['password'])) {
+ 
     $full_name = $_POST['full_name'];
     $login = $_POST['login'];
     $email = $_POST['email'];
@@ -24,5 +24,5 @@
         $_SESSION['message'] = 'Пароли не совпадают';
         header('Location: ../registration.php');
     }
-}
+
 ?>
